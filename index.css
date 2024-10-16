@@ -1,0 +1,33 @@
+/* styles.css */
+body {
+    background-color: #fdfd96; /* Soft pastel color */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.jumbotron {
+    background-color: #ffcccb; /* Light pink background */
+    color: #ff6f61; /* Friendly warm red */
+}
+
+h1, h2 {
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+}
+
+.card {
+    transition: transform 0.2s; /* Animation on hover */
+}
+
+.card:hover {
+    transform: scale(1.1); /* Slightly increase size */
+}
+
+.btn-success {
+    background-color: #ff6f61; /* Customize button color */
+    border-color: #ff6f61;
+}
+
+footer {
+    background-color: #ffcccb;
+    color: white;
+}
+
